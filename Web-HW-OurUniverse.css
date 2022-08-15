@@ -1,0 +1,78 @@
+.font1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#t1{
+    color:rgb(255, 0, 0)
+}
+
+#color1{
+    color:rgb(0, 0, 255)
+}
+
+#color2{
+    color: black;
+}
+
+progress::-webkit-progress-value{
+    background: rgb(239, 157, 5);
+}
+
+body{
+    background-color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 25%;
+}
+
+footer{
+    background-color: #4283b5;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4283b5;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 60px;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 12px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 3px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-transform: inherit;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: #1b8be1;
+    transition: .5s;
+}

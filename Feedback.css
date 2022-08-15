@@ -1,0 +1,47 @@
+.head{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4283b5;
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+
+.f1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.f1c{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+nav ul{
+    float: lef;
+    margin-left: -50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 3px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-transform: inherit;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: #1b8be1;
+    transition: .5s;
+}
